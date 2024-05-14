@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     console.log(topDomain);
     
-    fetch('http://127.0.0.1:8000/predict/', {
+    fetch('https://extension-server-58gy.onrender.com/predict/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
