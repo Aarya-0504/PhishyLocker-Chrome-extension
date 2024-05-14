@@ -38,6 +38,10 @@ This Chrome extension helps detect phishing websites and provides alerts to user
 - Easy-to-use interface directly integrated into Chrome.
 
 - ## Working
+- #### HSBC Phishing Website detected as Phishing by the extension:
+- ![image](https://github.com/Aarya-0504/PhishyLocker-Chrome-extension/assets/97930406/c50e4d71-ca24-465a-829e-8f94b546503f)
+- ![image](https://github.com/Aarya-0504/PhishyLocker-Chrome-extension/assets/97930406/88ac3f9a-0d16-4b66-ba1c-1bf2d9ecea8a)
+
 ![WhatsApp Image 2024-05-14 at 13 15 14_5ec30343](https://github.com/Aarya-0504/PhishyLocker-Chrome-extension/assets/97930406/f8bdce2f-5e36-4654-aa7d-f9b4c6f9f3ae)
 ![WhatsApp Image 2024-05-14 at 13 15 34_7e985dbd](https://github.com/Aarya-0504/PhishyLocker-Chrome-extension/assets/97930406/b3488979-bb61-4be9-93cc-d04996baf43b)
 
