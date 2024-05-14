@@ -5,13 +5,17 @@ document.addEventListener('DOMContentLoaded', function () {
   // Send a message to the content script to get the current tab's URL
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
     const url = tabs[0].url;
-
-    fetch('https://extension-server-58gy.onrender.com/predict/', {
+    const thirdSlashIndex = url.indexOf('/', url.indexOf('/') + 2); // Find index of third slash
+    const topDomain = url.substring(0, thirdSlashIndex); // Extract all text before third slash
+    
+    console.log(topDomain);
+    
+    fetch('http://127.0.0.1:8000/predict/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ url: url })
+      body: JSON.stringify({ url: topDomain })
     })
     .then(response => response.json())
     .then(data => {
