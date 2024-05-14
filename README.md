@@ -7,7 +7,7 @@ This Chrome extension helps detect phishing websites and provides alerts to user
 1. **Clone the Repository**
    - Clone this repository to your local machine using Git:
      ```
-     [git clone https://github.com/your-username/PhishyLocker-Chrome-extension.git](https://github.com/Aarya-0504/PhishyLocker-Chrome-extension.git)
+     git clone https://github.com/Aarya-0504/PhishyLocker-Chrome-extension.git
      ```
 
 2. **Navigate to the Extension Directory**
