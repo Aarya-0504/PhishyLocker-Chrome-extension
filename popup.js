@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // const thirdSlashIndex = url.indexOf('/', url.indexOf('/') + 2); // Find index of third slash
     // const topDomain = url.substring(0, thirdSlashIndex); // Extract all text before third slash
     
-    console.log(topDomain);
+    //console.log(topDomain);
     
     fetch('http://15.207.54.78/analyze-url/', {
       method: 'POST',

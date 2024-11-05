@@ -19,7 +19,7 @@
   "permissions": [
     "tabs",
     "http://localhost:8000/",
-    "https://4803-103-124-109-30.ngrok-free.app/"
+    "http://15.207.54.78/analyze-url/"
   ],
   "background": {
     "scripts": ["background.js"],
